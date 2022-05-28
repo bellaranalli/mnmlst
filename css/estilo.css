@@ -12,8 +12,16 @@ body {
     background-color: rgb(255, 255, 255);
     min-height: 100vh;
     margin: 0.5%;
+    animation: transitionIn 0.75s
 
 }
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+}
+
 
 .logo {
     background-color: white;
@@ -359,10 +367,12 @@ footer {
 
 .ima:hover {
     opacity: 1;
+    transform: scale(1.1, 1.1);
 }
 
 .imab:hover {
     opacity: 1;
+    transform: scale(1.1, 1.1);
 }
 
 /*media query proyectos*/
