@@ -13,10 +13,10 @@ body {
     min-height: 100vh;
     margin: 0.5%;
     animation: transitionIn 0.75s
-
 }
+
 @keyframes transitionIn {
-    from{
+    from {
         opacity: 0;
         transform: rotateX(-10deg);
     }
@@ -294,12 +294,17 @@ footer {
 
 
     }
+
+    .navegador li {
+        background-color: rgb(0, 0, 0);
+        margin-top: 4.2%;
+
+    }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:820px) {
 
     .quienessomos {
-
         padding-top: 10%;
     }
 
@@ -318,6 +323,14 @@ footer {
     .qs {
         font-size: 0.9rem;
         color: white;
+    }
+
+    .navegador li {
+        background-color: rgb(0, 0, 0);
+        margin-top: 4.2%;
+        padding: 0.2%;
+        font-size: 0.5rem;
+
     }
 
 
@@ -401,7 +414,7 @@ footer {
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .proyectos {
         grid-template-columns: 1fr 1fr;
         flex-direction: column;
@@ -439,16 +452,15 @@ footer {
     font-family: 'Koulen', cursive;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 30%;
     text-align: justify;
     position: absolute;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 1px;
+    text-decoration:underline;
     margin-left: 55%;
     margin-right: 5%;
-    margin-top: 7%;
-    padding: 5px;
+    margin-top: 10%;
+    padding: 7px;
     text-align: center;
 }
 
@@ -490,6 +502,31 @@ footer {
 
 
 }
+@media screen and (max-width:600px) {
+
+    .servicios {
+        margin-bottom: 3%;
+    }
+
+    .serv {
+        font-size: 0.7rem;
+        margin-top: 20%;
+        margin-left: 20%;
+        text-align: start;
+        border:none
+
+    }
+
+    .tipos {
+        font-size: 0.8rem;
+        margin-top: 25%;
+        margin-left: 60%;
+        text-align: end;
+    }
+
+
+}
+
 
 
 
