@@ -100,20 +100,12 @@ footer {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    font-size: small;
-    margin: 1% 2%;
+    font-size: 0.7rem;
+    text-align: justify;
+    justify-content: center;
+    animation-duration: 5s;
+    animation-name: aparecer;
 
-}
-
-.uno {
-    text-align: left;
-    margin-right: 75%;
-    margin-top: 0.5%;
-}
-
-.dos {
-    text-align: right;
-    margin-left: 10%;
 }
 
 /*index*/
@@ -676,9 +668,7 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 15px;
     width: 55%;
-    border: 2px black solid;
     margin-left: 25%;
     margin-top: 2%;
     font-size: 1.5rem;
@@ -761,34 +751,18 @@ textarea {
     .navegador {
         width: 80%;
         justify-content: space-evenly;
-        font-size: 7px;
+        font-size: 8px;
         padding-bottom: 5%;
         margin-left: 15%;
         margin-top: 2%;
         margin-bottom: 1%;
     }
 
-    footer {
-        width: 80%;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 75%;
-        font-size: 8px;
 
-    }
-
-    .uno {
-        margin-top: 1%;
-    }
-
-    .dos {
-        margin-top: -11%;
-        margin-left: 65%;
-    }
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:820px) {
     body {
         width: 100%;
     }
@@ -799,12 +773,12 @@ textarea {
         margin-left: 15%;
         margin-top: 2%;
         margin-bottom: 1%;
-
+        
     }
 
     footer {
         width: 85%;
-        font-size: 12px;
+        font-size: 0.5rem;
         justify-content: center;
         margin-left: 7%;
         margin-right: 18%;
