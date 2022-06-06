@@ -515,10 +515,11 @@ footer {
 
 }
 
-.a{
+.a {
     animation-duration: 1s;
     animation-name: aparecer;
 }
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -529,10 +530,12 @@ footer {
         opacity: 1;
     }
 }
-.b{
+
+.b {
     animation-duration: 2s;
     animation-name: aparecer;
 }
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -543,10 +546,12 @@ footer {
         opacity: 1;
     }
 }
-.c{
+
+.c {
     animation-duration: 3s;
     animation-name: aparecer;
 }
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -557,10 +562,12 @@ footer {
         opacity: 1;
     }
 }
-.d{
+
+.d {
     animation-duration: 4s;
     animation-name: aparecer;
 }
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -571,10 +578,12 @@ footer {
         opacity: 1;
     }
 }
-.e{
+
+.e {
     animation-duration: 5s;
     animation-name: aparecer;
 }
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -663,17 +672,26 @@ footer {
 }
 
 .formulario {
-    color: rgb(87, 86, 86);
+    color: rgb(0, 0, 0);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     text-align: center;
     padding: 15px;
     width: 55%;
-    border-radius: 1%;
+    border: 2px black solid;
     margin-left: 25%;
     margin-top: 2%;
-    background-color: rgba(224, 224, 224, 0.53);
     font-size: 1.5rem;
+
+}
+
+fieldset {
+    border: 2px black solid;
+}
+
+input {
+    color: black;
+    border: 2px black solid;
 
 }
 
@@ -683,6 +701,7 @@ textarea {
     padding: auto;
     margin-left: 1%;
     margin-right: 1%;
+    border: 2px black solid;
 }
 
 .enviar {
