@@ -1,0 +1,126 @@
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.1%; }
+  header .logo {
+    background-color: white;
+    padding: 0.8rem;
+    margin-right: 0.5%; }
+    header .logo a {
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      font-family: 'Koulen', cursive;
+      font-size: 1.8rem; }
+  header nav {
+    color: white;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    width: 93%;
+    height: 20;
+    margin-bottom: 1%; }
+  header .navegador {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: black;
+    height: 1rem;
+    margin-right: 0.5%;
+    padding-bottom: 1%; }
+    header .navegador li {
+      background-color: black;
+      margin-top: 4.2%;
+      padding: 0.9%; }
+      header .navegador li a {
+        text-decoration: none;
+        color: white; }
+        header .navegador li a:hover {
+          color: black; }
+      header .navegador li:hover {
+        background-color: white;
+        height: auto;
+        width: auto;
+        transition: .5s;
+        border-radius: 1px;
+        opacity: 0.9; }
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-align: justify;
+  justify-content: center;
+  animation-duration: 5s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  footer .uno {
+    list-style: none; }
+
+.pasaimagenes {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 3fr;
+  grid-template-areas: "pasaimagenes pasaimagenes";
+  margin-bottom: 2%; }
+  .pasaimagenes .pasa {
+    display: flex;
+    justify-self: stretch;
+    margin-left: 0.5%;
+    grid-area: pasaimagenes; }
+  .pasaimagenes .textoindex {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+    border: 4px solid black;
+    border-radius: 1%;
+    padding-top: 5%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 0.5%;
+    margin-left: 55%;
+    justify-content: flex-end;
+    grid-area: pasaimagenes;
+    animation-duration: 5s;
+    animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  margin: 0.5%;
+  animation: transitionIn 0.75s; }
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg); } }
+
+
+ 

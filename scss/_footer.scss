@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-align: justify;
+    justify-content: center;
+    animation-duration: 5s;
+    animation-name: aparecer;
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+    .uno{
+        list-style: none;
+    }
+}
