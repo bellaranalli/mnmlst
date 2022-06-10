@@ -35,14 +35,14 @@ header {
         align-items: center;
         justify-content: flex-end;
         list-style: none;
-        background-color: rgb(0, 0, 0);
+        background-color: $colorblack;
         height: 1rem;
         margin-right: 0.5%;
         padding-bottom: 1%;
 
         li {
-            background-color: rgb(0, 0, 0);
-            margin-top: 4.2%;
+            background-color: $colorblack;
+            margin-top: 4.1%;
             padding: 0.9%;
 
             a {
@@ -50,7 +50,7 @@ header {
                 color: rgb(255, 255, 255);
 
                 &:hover {
-                    color: rgb(0, 0, 0);
+                    color: $colorblack;
                 }
             }
 
