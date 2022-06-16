@@ -1,4 +1,10 @@
 /*index*/
+@mixin texto{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+}  
+
 .pasaimagenes {
     margin: auto;
     width: 100%;
@@ -13,16 +19,14 @@
 
 
 .textoindex {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color: black;
-    text-shadow:3px 3px 3px rgba(33, 33, 33, 0.784);
+    @include texto;
+    justify-items: center;
+    text-shadow: 3px 3px 3px rgba(33, 33, 33, 0.784);
     font-size: 3rem;
     padding-top: 5%;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 30%;
-    justify-items: center;
     text-align: center;
     animation-duration: 5s;
     animation-name: aparecer;
@@ -30,9 +34,7 @@
 }
 
 .textito {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color: black;
+    @include texto;
     font-size: 6rem;
 }
 
@@ -50,7 +52,7 @@
 
 /*media query index*/
 @media screen and (max-width:320px) {
-    .pasaimagenes{
+    .pasaimagenes {
         width: auto;
     }
 
@@ -65,24 +67,26 @@
         margin-bottom: 10%;
 
     }
-    .textito{
+
+    .textito {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width:768px) {
-    .pasaimagenes{
+    .pasaimagenes {
         width: auto;
     }
 
- 
+
     .textoindex {
         font-size: 1rem;
         font-weight: bold;
         justify-items: center;
         margin-top: 25%;
     }
-    .textito{
+
+    .textito {
         font-size: 3rem;
     }
 }

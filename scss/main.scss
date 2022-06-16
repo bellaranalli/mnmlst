@@ -1,6 +1,13 @@
 @import "index";
 @import "quienessomos";
 @import "proyectos";
+@mixin texto{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    justify-items: center;
+    color: black;
+}  
+
 
 * {
     margin: 0;
