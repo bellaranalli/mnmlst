@@ -1,44 +1,88 @@
-.pasaimagenes{
+/*index*/
+.pasaimagenes {
     margin: auto;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 3fr;
-    grid-template-areas: "pasaimagenes pasaimagenes";
+    display: flex;
     margin-bottom: 2%;
-    .pasa {
-        display: flex;
-        justify-self: stretch;
-        margin-left: 0.5%;
-        grid-area: pasaimagenes;
-    }
-    .textoindex {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: bold;
-        color: black;
-        font-size: 7rem;
-        border: 4px solid rgb(0, 0, 0);
-        border-radius: 1%;
-        padding-top: 5%;
-        text-align: center;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-right: 0.5%;
-        margin-left: 55%;
-        justify-content: flex-end;
-        grid-area: pasaimagenes;
-        animation-duration: 5s;
-        animation-name: aparecer;
-        @keyframes aparecer {
-            0% {
-                opacity: 0;
-        
-            }
-        
-            100% {
-                opacity: 1;
-            }
-        }
+    background-image: url(../img/pasapantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 800px;
+    height: 700px;
+
+}
+
+
+.textoindex {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow:3px 3px 3px rgba(33, 33, 33, 0.784);
+    font-size: 3rem;
+    padding-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    justify-items: center;
+    text-align: center;
+    animation-duration: 5s;
+    animation-name: aparecer;
+
+}
+
+.textito {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 6rem;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+
     }
 
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*media query index*/
+@media screen and (max-width:320px) {
+    .pasaimagenes{
+        width: auto;
+    }
+
+    .textoindex {
+        font-size: 0.5rem;
+        font-weight: bold;
+        justify-items: center;
+        padding-top: 17%;
+        margin-top: 100%;
+        margin-left: 20%;
+        margin-right: -65%;
+        margin-bottom: 10%;
+
+    }
+    .textito{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pasaimagenes{
+        width: auto;
+    }
+
+ 
+    .textoindex {
+        font-size: 1rem;
+        font-weight: bold;
+        justify-items: center;
+        margin-top: 25%;
+    }
+    .textito{
+        font-size: 3rem;
+    }
 }

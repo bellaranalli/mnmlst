@@ -1,0 +1,217 @@
+/*index*/
+.pasaimagenes {
+  margin: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2%;
+  background-image: url(../img/pasapantalla.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px 800px;
+  height: 700px;
+}
+
+.textoindex {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: black;
+  text-shadow: 3px 3px 3px rgba(33, 33, 33, 0.784);
+  font-size: 3rem;
+  padding-top: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  justify-items: center;
+  text-align: center;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.textito {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 6rem;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*media query index*/
+@media screen and (max-width: 320px) {
+  .pasaimagenes {
+    width: auto;
+  }
+  .textoindex {
+    font-size: 0.5rem;
+    font-weight: bold;
+    justify-items: center;
+    padding-top: 17%;
+    margin-top: 100%;
+    margin-left: 20%;
+    margin-right: -65%;
+    margin-bottom: 10%;
+  }
+  .textito {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pasaimagenes {
+    width: auto;
+  }
+  .textoindex {
+    font-size: 1rem;
+    font-weight: bold;
+    justify-items: center;
+    margin-top: 25%;
+  }
+  .textito {
+    font-size: 3rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  margin: 0.5%;
+  -webkit-animation: transitionIn 0.75s;
+          animation: transitionIn 0.75s;
+}
+
+@-webkit-keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+}
+
+.logo {
+  background-color: white;
+  padding: 0.8rem;
+  margin-right: auto;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Koulen', cursive;
+  font-size: 2rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.1%;
+}
+
+.navbar-toggler {
+  border-color: black;
+  background-color: white;
+  border-radius: 1px;
+}
+
+.navbar-expand-lg {
+  background-color: white;
+  width: 93%;
+  height: 20;
+  margin-bottom: 1%;
+}
+
+.navbar-expand-lg:hover {
+  background-color: black;
+  height: auto;
+  width: auto;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 1px;
+  opacity: 0.8;
+}
+
+.navbar-expand-lg .navbar-expand-lg li a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.navbar-expand-lg .navbar-expand-lg li a:hover {
+  color: white;
+}
+
+.navbar-expand-lg .navbar-expand-lg li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-align: justify;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+/*# sourceMappingURL=main.css.map */
