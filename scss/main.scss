@@ -107,8 +107,15 @@ footer {
     justify-content: center;
     animation-duration: 5s;
     animation-name: aparecer;
-
+    .red{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 18%;
+        margin-top: 1%;
+      }
 }
+
+
 /*media queries header y footer*/
 @media screen and (max-width:480px) {
     body {

@@ -7,7 +7,7 @@
   background-image: url(../img/pasapantalla.jpg);
   background-repeat: no-repeat;
   background-size: 2000px 800px;
-  height: 700px; }
+  height: 100vh; }
 
 .textoindex {
   font-family: 'Source Sans Pro', sans-serif;
@@ -329,6 +329,10 @@ form input:focus {
   width: 100%;
   font-size: 24px; }
 
+.red {
+  width: 1rem;
+  height: 1rem; }
+
 * {
   margin: 0;
   padding: 0;
@@ -404,6 +408,11 @@ footer {
   justify-content: center;
   animation-duration: 5s;
   animation-name: aparecer; }
+  footer .red {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 18%;
+    margin-top: 1%; }
 
 /*media queries header y footer*/
 @media screen and (max-width: 480px) {
