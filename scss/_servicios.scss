@@ -1,0 +1,136 @@
+/*servicios*/
+.servicios {
+    background-image: url(../img/servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    height: 100vh;
+}
+
+.serv {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Koulen', cursive;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.6rem;
+    width: 30%;
+    text-align: justify;
+    position: absolute;
+    text-decoration: underline;
+    margin-left: 57%;
+    margin-right: 4%;
+    margin-top: 10%;
+    padding: 7px;
+    text-align: center;
+}
+
+
+.tipos {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.4rem;
+    width: 30%;
+    text-align: justify;
+    margin-left: 15%;
+    margin-top: 10%;
+    list-style-type: square;
+
+    .cuadrado {
+        list-style-type: square;
+
+        .a {
+            animation-duration: 1s;
+            animation-name: aparecer;
+        }
+
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .b {
+            @extend .a;
+            animation-duration: 2s;
+        }
+
+        .c {
+            @extend .a;
+            animation-duration: 3s;
+        }
+
+
+        .d {
+            @extend .a;
+            animation-duration: 4s;
+        }
+
+
+
+        .e {
+            @extend .a;
+            animation-duration: 5s;
+        }
+
+    }
+}
+
+/*media query servicios*/
+
+@media screen and (max-width:320px) {
+
+    .servicios {
+        margin-bottom: 3%;
+    }
+
+    .serv {
+        font-size: 0.8rem;
+        margin-top: 10%;
+        margin-left: 20%;
+        text-align: start;
+
+    }
+
+    .tipos {
+        font-size: 0.8rem;
+        margin-top: 70%;
+        margin-left: 60%;
+        text-align: end;
+        list-style-type: square;
+    }
+
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .servicios {
+        margin-bottom: 3%;
+    }
+
+    .serv {
+        font-size: 0.7rem;
+        margin-top: 20%;
+        margin-left: 20%;
+        text-align: start;
+        border: none
+    }
+
+    .tipos {
+        font-size: 0.8rem;
+        margin-top: 25%;
+        margin-left: 60%;
+        text-align: end;
+    }
+
+
+}

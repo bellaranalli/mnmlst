@@ -1,6 +1,8 @@
 @import "index";
 @import "quienessomos";
 @import "proyectos";
+@import "servicios";
+@import "contacto";
 @mixin texto{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -43,7 +45,7 @@ body {
         text-decoration: none;
         color: black;
         font-family: 'Koulen', cursive;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 

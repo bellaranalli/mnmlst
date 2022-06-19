@@ -1,0 +1,50 @@
+.escribinos {
+    margin-top: -0.3%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-image: url(../img/contacto.jpg);
+    background-size: 2000px 800px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.contacto{
+    font-family: 'Koulen', cursive;
+    margin-left: 45%;
+    padding-top: 5%;
+}
+
+form {
+    font-family: 'Koulen', cursive;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 2rem;
+    color: #000000;
+    font-size: 1.3rem;
+    }
+    form button {
+      background-color: #000000;
+      font-family: 'Koulen', cursive;
+      border-radius: 1px;
+      justify-content: center;
+      color: white;
+      border: none;
+      padding: 0.5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+      form button:hover {
+        background-color: white;
+        color: #000000;
+        font-weight: bolder; }
+    form input {
+      text-align: center;
+      margin: 0.3rem;
+      padding: 0.3rem;
+      border-radius: 1px;
+      transition: all 2s;
+      width: 75%; }
+      form input:focus {
+        width: 100%;
+        font-size: 24px; }
