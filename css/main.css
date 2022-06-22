@@ -237,7 +237,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 30%;
   text-align: justify;
   margin-left: 15%;
@@ -307,7 +307,7 @@
 .contacto {
   font-family: 'Koulen', cursive;
   margin-left: 43%;
-  padding-top: 7%; }
+  padding-top: 6%; }
 
 form {
   font-family: 'Koulen', cursive;
@@ -317,7 +317,7 @@ form {
   margin: 2rem;
   padding-right: 2%;
   color: #000000;
-  font-size: 1.3rem; }
+  font-size: 1.125rem; }
 
 form button {
   background-color: #000000;
