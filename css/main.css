@@ -17,7 +17,7 @@
   text-shadow: 3px 3px 3px rgba(33, 33, 33, 0.784);
   font-size: 4rem;
   padding-top: 5%;
-  margin-top: 5%;
+  margin-top: 7%;
   margin-bottom: 10%;
   margin-left: 25%;
   text-align: center;
@@ -65,10 +65,13 @@
   .textito {
     font-size: 4rem; } }
 
+@media screen and (max-width: 992px) {
+  .textoindex {
+    margin-right: 15%; }
+  .textito {
+    margin-right: 15%; } }
+
 .quienessomos {
-  margin-top: -0.3%;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
   display: inline-block;
   background-image: url("../img/quienessomos.jpg");
   background-repeat: no-repeat;
@@ -84,31 +87,35 @@
   width: 30%;
   text-align: justify;
   text-shadow: 3px 3px 3px rgba(63, 63, 63, 0.856);
-  margin-left: 17%;
+  margin-left: 15%;
   margin-right: 5%;
-  margin-top: 20%;
-  padding: 5px;
-  text-align: center; }
+  margin-top: 27%;
+  padding: 3px;
+  text-align: center;
+  border-bottom: 3px #0a081c solid; }
   .qs:hover {
     transform: scale(1.3, 1.3);
-    border: 1px #acabab;
-    border-radius: 0.5%;
-    color: black;
-    text-shadow: 3px 3px 3px rgba(226, 223, 223, 0.856); }
+    border-bottom: 3px #0a081c solid;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(63, 63, 63, 0.856); }
 
 .qss {
   display: inline-block;
+  align-content: center;
   font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 1.5rem;
   width: 30%;
   text-align: justify;
-  margin-left: 60%;
-  margin-top: -25%;
-  border: 2px #0a081c solid;
+  margin-left: 53%;
+  margin-top: -30%;
+  border-left: 3px #0a081c solid;
+  text-shadow: 3px 3px 3px rgba(39, 39, 39, 0.615);
   border-radius: 1px;
-  padding: 5px; }
+  padding: 3px; }
+  .qss:hover {
+    transform: scale(1.03, 1.03); }
 
 /*media query quienes somos*/
 @media screen and (max-width: 320px) {
@@ -122,7 +129,7 @@
     padding-right: 1%;
     margin-bottom: 1%; }
   .qss {
-    font-size: 0.5rem;
+    font-size: 0.7rem !important;
     color: white;
     text-align: center;
     margin-top: 5%;
@@ -136,15 +143,15 @@
   .quienessomos {
     padding-top: 10%; }
   .qss {
-    font-size: 0.7rem;
-    color: #b6b6b6;
+    font-size: 0.9rem;
+    color: white;
     text-align: center;
     padding: 1%;
-    background-color: black;
-    opacity: 0.8; }
+    border-left: 3px #0a081c solid; }
   .qs {
-    font-size: 0.9rem;
-    color: white; }
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 20%; }
   .navegador li {
     background-color: black;
     margin-top: 4.2%;
@@ -164,7 +171,7 @@
   margin-top: 5%;
   margin-left: 5%;
   padding: 5%;
-  border: 1px #acabab;
+  border: 3px #494949;
   border-radius: 0.5%;
   opacity: 0.9;
   animation-duration: 0.5s;
@@ -172,7 +179,7 @@
   .ima:hover {
     opacity: 1;
     transform: scale(1.1, 1.1);
-    border: 1px #acabab;
+    border: 3px #494949;
     border-radius: 0.5%; }
 
 @keyframes aparecer1 {
@@ -222,7 +229,8 @@
   margin-top: 15%;
   padding: 7px;
   text-align: center;
-  text-shadow: 3px 3px 3px rgba(13, 13, 13, 0.601); }
+  text-shadow: 3px 3px 3px rgba(13, 13, 13, 0.601);
+  border-right: black solid; }
 
 .tipos {
   display: inline-block;
@@ -298,8 +306,8 @@
 
 .contacto {
   font-family: 'Koulen', cursive;
-  margin-left: 45%;
-  padding-top: 5%; }
+  margin-left: 43%;
+  padding-top: 7%; }
 
 form {
   font-family: 'Koulen', cursive;
@@ -307,6 +315,7 @@ form {
   align-items: center;
   align-content: center;
   margin: 2rem;
+  padding-right: 2%;
   color: #000000;
   font-size: 1.3rem; }
 

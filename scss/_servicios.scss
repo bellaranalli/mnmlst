@@ -23,6 +23,8 @@
     padding: 7px;
     text-align: center;
     text-shadow: 3px 3px 3px rgba(13, 13, 13, 0.601);
+    border-right: black solid;
+    
 }
 
 
@@ -35,7 +37,7 @@
     width: 30%;
     text-align: justify;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 10%;    
     .cuadrado {
         list-style-type:disc;
 

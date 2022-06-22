@@ -12,7 +12,7 @@
     margin-top: 5%;
     margin-left: 5%;
     padding: 5%;
-    border: 1px rgb(172, 171, 171);
+    border: 3px rgb(73, 73, 73);
     border-radius: 0.5%;
     opacity: 0.9;
     animation-duration: 0.5s;
@@ -20,7 +20,7 @@
     &:hover{
         opacity: 1;
     transform: scale(1.1, 1.1);
-    border: 1px rgb(172, 171, 171);
+    border: 3px rgb(73, 73, 73);
     border-radius: 0.5%;
     }
 }

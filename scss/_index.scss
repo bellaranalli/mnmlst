@@ -1,9 +1,9 @@
 /*index*/
-@mixin texto{
+@mixin texto {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: black;
-}  
+}
 
 .pasaimagenes {
     margin: auto;
@@ -24,7 +24,7 @@
     text-shadow: 3px 3px 3px rgba(33, 33, 33, 0.784);
     font-size: 4rem;
     padding-top: 5%;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-bottom: 10%;
     margin-left: 25%;
     text-align: center;
@@ -86,9 +86,20 @@
         font-weight: bold;
         justify-items: center;
         margin-top: 25%;
+        
     }
 
     .textito {
         font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .textoindex {
+        margin-right: 15%;
+    }
+
+    .textito {
+        margin-right: 15%;
     }
 }

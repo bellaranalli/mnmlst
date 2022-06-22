@@ -1,13 +1,11 @@
 .quienessomos {
-	margin-top: -0.3%;
-	margin-left: 0.5rem;
-	margin-right: 0.5rem;
 	display: inline-block;
 	background-image: url("../img/quienessomos.jpg");
 	background-repeat: no-repeat;
 	background-size: 2000px 1000px;
 	height: 100vh;
 }
+
 .qs {
 	display: inline-block;
 	font-family: 'Koulen', cursive;
@@ -16,34 +14,43 @@
 	font-size: 1rem;
 	width: 30%;
 	text-align: justify;
-    text-shadow: 3px 3px 3px rgba(63, 63, 63, 0.856);
-	margin-left: 17%;
+	text-shadow: 3px 3px 3px rgba(63, 63, 63, 0.856);
+	margin-left: 15%;
 	margin-right: 5%;
-	margin-top: 20%;
-	padding: 5px;
+	margin-top: 27%;
+	padding: 3px;
 	text-align: center;
-	&:hover{
-    transform: scale(1.3, 1.3);
-    border: 1px rgb(172, 171, 171);
-    border-radius: 0.5%;
-	color: black;
-	text-shadow: 3px 3px 3px rgba(226, 223, 223, 0.856);
-    }
+	border-bottom: 3px rgb(10, 8, 28) solid;
+
+	&:hover {
+		transform: scale(1.3, 1.3);
+		border-bottom: 3px rgb(10, 8, 28) solid;
+		color: rgb(255, 255, 255);
+		text-shadow: 3px 3px 3px rgba(63, 63, 63, 0.856);
+	}
 }
+
 .qss {
 	display: inline-block;
+	align-content: center;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	font-size: 1.5rem;
 	width: 30%;
 	text-align: justify;
-	margin-left: 60%;
-	margin-top: -25%;
-	border: 2px rgb(10, 8, 28) solid;
+	margin-left: 53%;
+	margin-top: -30%;
+	border-left: 3px rgb(10, 8, 28) solid;
+	text-shadow: 3px 3px 3px rgba(39, 39, 39, 0.615);
 	border-radius: 1px;
-	padding: 5px;
+	padding: 3px;
+
+	&:hover {
+		transform: scale(1.03, 1.03);
+	}
 }
+
 /*media query quienes somos*/
 @media screen and (max-width:320px) {
 	.qs {
@@ -52,19 +59,22 @@
 		margin-left: 38%;
 		margin-top: 5%;
 	}
+
 	.quienessomos {
 		width: 95%;
 		padding-right: 1%;
 		margin-bottom: 1%;
 	}
+
 	.qss {
-		font-size: 0.5rem;
+		font-size: 0.7rem !important;
 		color: rgb(255, 255, 255);
 		text-align: center;
 		margin-top: 5%;
 		margin-left: 38%;
 		padding: 1%;
 	}
+
 	.navegador {
 		li {
 			background-color: rgb(0, 0, 0);
@@ -72,22 +82,27 @@
 		}
 	}
 }
+
 @media screen and (max-width:820px) {
 	.quienessomos {
 		padding-top: 10%;
 	}
+
 	.qss {
-		font-size: 0.7rem;
-		color: rgb(182, 182, 182);
+		font-size: 0.9rem;
+		color: rgb(255, 255, 255);
 		text-align: center;
 		padding: 1%;
-		background-color: black;
-		opacity: 0.8;
+		border-left: 3px rgb(10, 8, 28) solid;
+
 	}
+
 	.qs {
-		font-size: 0.9rem;
+		font-size: 1.1rem;
 		color: white;
+		margin-top: 20%;
 	}
+
 	.navegador {
 		li {
 			background-color: rgb(0, 0, 0);
@@ -97,6 +112,3 @@
 		}
 	}
 }
-
-
-
