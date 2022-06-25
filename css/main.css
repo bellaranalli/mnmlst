@@ -19,7 +19,7 @@
   padding-top: 5%;
   margin-top: 7%;
   margin-bottom: 10%;
-  margin-left: 25%;
+  margin-left: 23%;
   text-align: center;
   animation-duration: 5s;
   animation-name: aparecer; }
@@ -48,7 +48,7 @@
     justify-items: center;
     padding-top: 17%;
     margin-top: 100%;
-    margin-left: 25%;
+    margin-left: 23%;
     margin-right: -65%;
     margin-bottom: 10%; }
   .textito {
@@ -61,7 +61,7 @@
     font-size: 2rem;
     font-weight: bold;
     justify-items: center;
-    margin-top: 25%; }
+    margin-top: 27%; }
   .textito {
     font-size: 4rem; } }
 
