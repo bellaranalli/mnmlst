@@ -1,1 +1,2 @@
 # mnmlst
+El proyecto trata sobre una web de un estudio de diseño y urbanismo, con una impronta minimalista, poco saturada, de estilo amplio. La web se desarrolló utilizando el contenido visto en el curso: html, css, scss, bootstrap, flex box, etc. Se han aplicado partials para las hojas de estilo, algunos imports para colores (a modo de ejemplificar que se conoce su uso dado que la web cuenta con color sólo blanco y negro), mixin en el index, extend en la hoja servicios y _ blank para RRSS. El diseño ha sido pensado para un uso responsivo.
